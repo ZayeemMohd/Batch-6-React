@@ -1,18 +1,38 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const paraElem = React.createElement("p", {}, "I am paragraph tag created using react")
-const paraElem1 = React.createElement("p", {}, "I am paragraph tag created using react")
-const paraElem2 = React.createElement("p", {}, "I am paragraph tag created using react")
+const heading = (
+  <div>
+    <h1 className="red">Hello world</h1>
+    <p> I am paragraph tag</p>
+  </div>
+);
 
+const body = (
+  <div>
+    <h4>I am body</h4>
+    <p>I am para inside body</p>
+  </div>
+);
 
-const parentElem = React.createElement("div", {}, [paraElem, paraElem1, paraElem2])
+const layout = (
+  <div>
+    {heading}
+    {body}
+    {2+2}
+  </div>
+);
 
-// not a real HTML element => simple simple simple javascript object
-// {
-//     title: "I am paragraph tag",
-//     elementName: "p",
-// }
+// JSX
+// (
+//   <div>
+//     <h1>Hello world</h1>
+//   </div>
+// );
 
-const root = ReactDOM.createRoot(document.querySelector("#root"))
-root.render(parentElem)
+// Jsx => pure react function
+
+//   {} simple object
+
+const root = ReactDOM.createRoot(document.querySelector("#root"));
+root.render(layout);

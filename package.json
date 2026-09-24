@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx parcel index.html",
+    "dev": "npx parcel index.html --no-cache",
     "build": "npx parcel build index.html"
   },
   "repository": {
@@ -27,5 +27,3 @@
     "parcel": "^2.16.4"
   }
 }
-
-
