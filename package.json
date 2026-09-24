@@ -2,23 +2,30 @@
   "name": "batch-6-react",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/ZayeemMohd/Batch-6-React#readme",
-  "bugs": {
-    "url": "https://github.com/ZayeemMohd/Batch-6-React/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZayeemMohd/Batch-6-React.git"
   },
-  "license": "ISC",
+  "keywords": [],
   "author": "",
+  "license": "ISC",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/ZayeemMohd/Batch-6-React/issues"
   },
+  "homepage": "https://github.com/ZayeemMohd/Batch-6-React#readme",
   "dependencies": {
-    "parcel": "^2.16.4",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
   }
 }
+
+
