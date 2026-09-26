@@ -1,3 +1,14 @@
 .red {
-    background-color: red;
+  background-color: red;
+}
+
+.cart {
+  border: 1px solid black;
+  height: 100px;
+  width: 300px;
+  margin: 10px;
+}
+
+img {
+  width: 50px;
 }
